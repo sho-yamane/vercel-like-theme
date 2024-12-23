@@ -1,0 +1,333 @@
+<scheme name="Vercel Like UI Dark" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2024-03-21</property>
+        <property name="description">Vercel Like UI Dark Theme</property>
+        <property name="originalScheme">Vercel Like UI Dark</property>
+        <property name="vendor">Sho Yamane</property>
+    </metaInfo>
+    
+    <colors>
+        <!-- 基本的な背景と前景色 -->
+        <option name="BACKGROUND" value="0A0A0A"/>
+        <option name="FOREGROUND" value="EDEDED"/>
+        
+        <!-- エディタ関連 -->
+        <option name="CARET_ROW_COLOR" value="FFFFFF1A"/>
+        <option name="GUTTER_BACKGROUND" value="0A0A0A"/>
+        <option name="LINE_NUMBERS_COLOR" value="A1A1A1"/>
+        <option name="SELECTED_INDENT_GUIDE" value="242424"/>
+        <option name="SELECTION_BACKGROUND" value="FFFFFF1A"/>
+        <option name="WHITESPACES" value="242424"/>
+        
+        <!-- スクロールバー -->
+        <option name="SCROLLBAR_TRACK_COLOR" value="0A0A0A"/>
+        <option name="SCROLLBAR_THUMB_COLOR" value="A1A1A166"/>
+        
+        <!-- 検索 -->
+        <option name="SEARCH_RESULT_ATTRIBUTES" value="52A8FF33"/>
+        
+        <!-- VCS関連 -->
+        <option name="FILESTATUS_ADDED" value="62C073"/>
+        <option name="FILESTATUS_MODIFIED" value="FF9907"/>
+        <option name="FILESTATUS_DELETED" value="F75F8F"/>
+        
+        <!-- ターミナル関連 -->
+        <option name="CONSOLE_BACKGROUND_KEY" value="0A0A0A"/>
+        <option name="TERMINAL_BACKGROUND" value="0A0A0A"/>
+        <option name="TERMINAL_FOREGROUND" value="EDEDED"/>
+        <option name="TERMINAL_SELECTION_BACKGROUND" value="FFFFFF1A"/>
+        
+        <!-- ANSI Colors -->
+        <option name="TERMINAL_COLOR_0" value="171717"/>  <!-- Black -->
+        <option name="TERMINAL_COLOR_1" value="F75F8F"/>  <!-- Red -->
+        <option name="TERMINAL_COLOR_2" value="62C073"/>  <!-- Green -->
+        <option name="TERMINAL_COLOR_3" value="FF9907"/>  <!-- Yellow -->
+        <option name="TERMINAL_COLOR_4" value="52A8FF"/>  <!-- Blue -->
+        <option name="TERMINAL_COLOR_5" value="C472FB"/>  <!-- Magenta -->
+        <option name="TERMINAL_COLOR_6" value="52A8FF"/>  <!-- Cyan -->
+        <option name="TERMINAL_COLOR_7" value="EDEDED"/>  <!-- White -->
+        
+        <!-- Bright ANSI Colors -->
+        <option name="TERMINAL_COLOR_8" value="A1A1A1"/>   <!-- Bright Black -->
+        <option name="TERMINAL_COLOR_9" value="F75F8F"/>   <!-- Bright Red -->
+        <option name="TERMINAL_COLOR_10" value="62C073"/>  <!-- Bright Green -->
+        <option name="TERMINAL_COLOR_11" value="FF9907"/>  <!-- Bright Yellow -->
+        <option name="TERMINAL_COLOR_12" value="52A8FF"/>  <!-- Bright Blue -->
+        <option name="TERMINAL_COLOR_13" value="C472FB"/>  <!-- Bright Magenta -->
+        <option name="TERMINAL_COLOR_14" value="52A8FF"/>  <!-- Bright Cyan -->
+        <option name="TERMINAL_COLOR_15" value="FFFFFF"/>  <!-- Bright White -->
+    </colors>
+    
+    <attributes>
+        <!-- 基本的な構文要素 -->
+        <option name="DEFAULT_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_STRING">
+            <value>
+                <option name="FOREGROUND" value="62C073"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_BLOCK_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="A1A1A1"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="A1A1A1"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_DOC_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="A1A1A1"/>
+            </value>
+        </option>
+        
+        <!-- 関数と変数 -->
+        <option name="DEFAULT_FUNCTION_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="C472FB"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="C472FB"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="EDEDED"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="52A8FF"/>
+            </value>
+        </option>
+        
+        <!-- 定数と数値 -->
+        <option name="DEFAULT_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="52A8FF"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="52A8FF"/>
+            </value>
+        </option>
+        
+        <!-- タイプとクラス -->
+        <option name="DEFAULT_CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="C472FB"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_INTERFACE_NAME">
+            <value>
+                <option name="FOREGROUND" value="C472FB"/>
+            </value>
+        </option>
+        
+        <!-- 演算子とプロパティ -->
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_PROPERTY">
+            <value>
+                <option name="FOREGROUND" value="52A8FF"/>
+            </value>
+        </option>
+        
+        <!-- マークアップ/マークダウン -->
+        <option name="DEFAULT_TAG">
+            <value>
+                <option name="FOREGROUND" value="62C073"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_ATTRIBUTE">
+            <value>
+                <option name="FOREGROUND" value="C472FB"/>
+            </value>
+        </option>
+        
+        <!-- エラーと警告 -->
+        <option name="ERROR_HINT">
+            <value>
+                <option name="EFFECT_COLOR" value="F75F8F"/>
+                <option name="ERROR_STRIPE_COLOR" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="WARNING_ATTRIBUTES">
+            <value>
+                <option name="EFFECT_COLOR" value="FF9907"/>
+                <option name="ERROR_STRIPE_COLOR" value="FF9907"/>
+            </value>
+        </option>
+        
+        <!-- 括弧と区切り文字 -->
+        <option name="DEFAULT_BRACES">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_SEMICOLON">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_COMMA">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="DEFAULT_DOT">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+
+        <!-- TypeScript/JavaScript固有の設定 -->
+        <option name="JS.BRACES">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="JS.BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="JS.PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="TS.BRACES">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="TS.BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="TS.PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <!-- ターミナル/コンソール出力 -->
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="EDEDED"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_ERROR_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_USER_INPUT">
+            <value>
+                <option name="FOREGROUND" value="62C073"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_SYSTEM_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="EDEDED"/>
+            </value>
+        </option>
+        
+        <!-- ANSI Colors -->
+        <option name="CONSOLE_BLACK_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="171717"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_RED_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="F75F8F"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_GREEN_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="62C073"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_YELLOW_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="FF9907"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_BLUE_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="52A8FF"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_MAGENTA_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="C472FB"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_CYAN_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="52A8FF"/>
+            </value>
+        </option>
+        
+        <option name="CONSOLE_WHITE_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="EDEDED"/>
+            </value>
+        </option>
+    </attributes>
+</scheme> 

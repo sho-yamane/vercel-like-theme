@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>jp.vallis.sho-yamane.vercellikeui</id>
+    <name>Vercel Like UI</name>
+    <version>1.0</version>
+    <vendor>Sho Yamane</vendor>
+    <description>Vercel Like UI color scheme for IntelliJ-based IDEs</description>
+    
+    <depends>com.intellij.modules.platform</depends>
+    
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="vercel-like-ui-dark" path="/themes/vercel-like-ui-dark.theme.json"/>
+        <themeProvider id="vercel-like-ui-light" path="/themes/vercel-like-ui-light.theme.json"/>
+    </extensions>
+</idea-plugin> 

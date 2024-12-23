@@ -1,0 +1,177 @@
+{
+  "name": "Vercel Like UI Dark",
+  "dark": true,
+  "author": "Sho Yamane",
+  "editorScheme": "/themes/vercel-like-ui-dark-theme.xml",
+  "ui": {
+    "*": {
+      "background": "#0A0A0A",
+      "foreground": "#EDEDED",
+      "infoForeground": "#A1A1A1",
+      "selectionBackground": "#FFFFFF1A",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#FFFFFF0D",
+      "disabledForeground": "#A1A1A1"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "#FFFFFF1A",
+      "pressedBackground": "#FFFFFF26"
+    },
+
+    "Button": {
+      "startBackground": "#171717",
+      "endBackground": "#171717",
+      "startBorderColor": "#242424",
+      "endBorderColor": "#242424",
+      "foreground": "#EDEDED",
+
+      "default": {
+        "startBackground": "#FFFFFF",
+        "endBackground": "#FFFFFF",
+        "startBorderColor": "#FFFFFF",
+        "endBorderColor": "#FFFFFF",
+        "foreground": "#000000",
+        "focusedBorderColor": "#52A8FF"
+      },
+
+      "disabledText": "#A1A1A1",
+      "disabledBorderColor": "#242424",
+      "disabledBackground": "#171717"
+    },
+
+    "Button.border": {
+      "color": "#242424",
+      "width": 1
+    },
+
+    "Borders": {
+      "color": "#242424",
+      "ContrastBorderColor": "#242424"
+    },
+
+    "ComboBox": {
+      "background": "#171717",
+      "nonEditableBackground": "#171717",
+      "ArrowButton": {
+        "iconColor": "#A1A1A1",
+        "disabledIconColor": "#A1A1A166",
+        "nonEditableBackground": "#171717"
+      }
+    },
+
+    "Editor": {
+      "background": "#0A0A0A",
+      "foreground": "#EDEDED",
+      "shortcutForeground": "#52A8FF",
+      "selection.background": "#FFFFFF1A",
+      "selection.foreground": "#FFFFFF",
+      "punctuation": "#F75F8F",
+      "brackets": "#F75F8F",
+      "braces": "#F75F8F"
+    },
+
+    "Link": {
+      "activeForeground": "#52A8FF",
+      "hoverForeground": "#52A8FF",
+      "pressedForeground": "#52A8FF",
+      "visitedForeground": "#52A8FF"
+    },
+
+    "MenuBar": {
+      "borderColor": "#242424"
+    },
+
+    "Menu": {
+      "borderColor": "#242424",
+      "separatorColor": "#242424"
+    },
+
+    "ProgressBar": {
+      "trackColor": "#242424",
+      "progressColor": "#52A8FF",
+      "indeterminateStartColor": "#52A8FF",
+      "indeterminateEndColor": "#52A8FF66"
+    },
+
+    "ScrollBar": {
+      "track": "#0A0A0A",
+      "thumb": "#A1A1A166",
+      "thumbColor": "#A1A1A166",
+      "hoverThumbColor": "#A1A1A1B3",
+      "hoverThumbBorderColor": "#A1A1A1B3"
+    },
+
+    "SearchMatch": {
+      "startBackground": "#52A8FF33",
+      "endBackground": "#52A8FF33"
+    },
+
+    "TabbedPane": {
+      "underlineColor": "#52A8FF",
+      "disabledUnderlineColor": "#A1A1A166"
+    },
+
+    "ToolWindow": {
+      "Header": {
+        "background": "#0A0A0A",
+        "borderColor": "#242424"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#171717",
+        "selectedInactiveBackground": "#171717",
+        "hoverBackground": "#FFFFFF1A",
+        "hoverInactiveBackground": "#FFFFFF0D"
+      },
+      "Terminal.Panel.background": "#0A0A0A"
+    },
+
+    "Terminal": {
+      "background": "#0A0A0A",
+      "foreground": "#EDEDED",
+      "selectionBackground": "#FFFFFF1A",
+      "SelectionForeground": "#FFFFFF"
+    },
+
+    "TerminalCursor": {
+      "background": "#EDEDED",
+      "foreground": "#EDEDED"
+    },
+
+    "RunWidget": {
+      "background": "#0A0A0A",
+      "borderColor": "#242424"
+    },
+
+    "ToolWindowHeader": {
+      "background": "#0A0A0A",
+      "borderColor": "#242424"
+    },
+
+    "TabPanel": {
+      "background": "#0A0A0A"
+    },
+
+    "EditorTabs": {
+      "background": "#0A0A0A",
+      "borderColor": "#242424",
+      "underlinedTabBackground": "#171717",
+      "inactiveColoredFileBackground": "#0A0A0A"
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#A1A1A1",
+      "Actions.Red": "#F75F8F",
+      "Actions.Yellow": "#FF9907",
+      "Actions.Green": "#62C073",
+      "Actions.Blue": "#52A8FF",
+      "Objects.Grey": "#A1A1A1",
+      "Objects.RedStatus": "#F75F8F",
+      "Objects.YellowStatus": "#FF9907",
+      "Objects.GreenStatus": "#62C073",
+      "Objects.BlueStatus": "#52A8FF"
+    }
+  }
+}
