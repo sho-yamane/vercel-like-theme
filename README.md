@@ -4,7 +4,13 @@ A Vercel-like UI theme for IntelliJ-based IDEs, supporting both dark and light m
 
 ## Screenshots
 
-[Add screenshots here]
+### Dark Theme
+
+![Dark Theme](assets/dark-screenshot.png)
+
+### Light Theme
+
+![Light Theme](assets/light-screenshot.png)
 
 ## Features
 
